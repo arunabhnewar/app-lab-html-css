@@ -7,6 +7,7 @@
 }
 
 body {
+    background-color: #f9fbfc;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -32,7 +33,6 @@ a{
 
 /*--------navbar---------*/
 header {
-    background-color: #f9fbfc;
     margin-top: 25px;
 }
 
@@ -78,4 +78,84 @@ header {
     outline: none;
     color: #f9fbfc;
     cursor: pointer;
+}
+
+
+/*----------banner----------*/
+#banner_section {
+    background-image: url('./../assets/banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    max-height: calc(100vh - 25px);
+}
+
+.banner_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner_info h6{
+    display: flex;
+    align-items: center;
+    width: 362px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: #e2eaed;
+    font-size: 18px;
+    line-height: 28px;
+    color: #242f51;
+    font-weight: 400;
+}
+
+.banner_info h6 i {
+    width: 39px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: #feaa25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.banner_info h1 {
+    /* max-width: 525px; */
+    font-size: 60px;
+    line-height: 75px;
+    color: #242f51;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.banner_info p {
+    /* max-width: 481px; */
+    font-size: 18px;
+    line-height: 28px;
+    color: #616368;
+    font-weight: 400;
+    padding: 0 0 20px 0;
+}
+
+.demo_btn {
+    font-size: 16px;
+    line-height: 44px;
+    color: #2500f9;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.banner_img {
+    max-width: 300px;
+}
+
+.banner_img img {
+    width: 100%;
 }

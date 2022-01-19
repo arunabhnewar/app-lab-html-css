@@ -80,6 +80,17 @@ header {
     cursor: pointer;
 }
 
+#toggler_menu {
+    display: none;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+#toggler_menu i {
+    color: #2500f9;
+    font-size: 32px;
+}
 
 /*----------banner----------*/
 #banner_section {
@@ -87,7 +98,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left bottom;
-    max-height: calc(100vh - 25px);
+    max-height: calc(100vh - 75px);
 }
 
 .banner_content{

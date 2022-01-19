@@ -1,0 +1,55 @@
+/* Desktop version */
+@media only screen and (max-width: 992px) {
+    #toggler_menu {
+        display: block;
+        cursor: pointer;
+    }
+    .menu_bar {
+        display: none;
+    }
+    #banner_section {
+        background-position: left bottom;
+        background-size: 100%;
+    }
+    .banner_info h1 {
+        font-size: 48px;
+        line-height: 63px;
+    }
+}
+
+
+/* Tablet, laptop version */
+@media only screen and (max-width: 768px) {
+    #banner_section {
+        margin: 60px 0px;
+    }
+    .banner_content {
+        flex-direction: column-reverse;
+    }
+    .banner_info {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .banner_img {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 38px;
+    }
+}
+
+
+/* Mobile version */
+@media only screen and (max-width: 589px) {
+    .banner_info h6 {
+        max-width: 350px;
+    }
+    .banner_info h1 {
+        font-size: 32px;
+        line-height: 47px;
+    }
+    .banner_btn {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}

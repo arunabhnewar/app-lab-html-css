@@ -81,8 +81,42 @@
     .service_content {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .jackpots_detail {
         margin: 70px auto;
+    }
+
+    .planning_content {
+        flex-direction: column;
+    }
+
+    .planning_intro h2 {
+       margin: auto;
+        text-align: center;
+    }
+
+    .planning_intro p {
+       margin: auto;
+        text-align: center;
+    }
+
+    .planning_item_img {
+       margin: 20px auto;
+    }
+
+    .planning_item_detail h6 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .planning_item_detail p {
+        margin: auto;
+        text-align: center;
+    }
+
+    .planning_btn {
+        text-align: center;
+        margin:0 auto 20px;
     }
 }
 
@@ -157,6 +191,10 @@
     }
 
     .service_content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .planning_categories {
         grid-template-columns: repeat(1, 1fr);
     }
 }

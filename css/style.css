@@ -464,3 +464,79 @@ header {
     text-align: center;
     margin: 0 auto 65px;
 }
+
+
+/*-------planning---------*/
+#planning_section {
+    margin-top: 150px;
+}
+
+.planning_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.planning_intro h2 {
+    max-width: 318px;
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+    margin-bottom: 31px;
+    text-align: left;
+}
+
+.planning_intro p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    max-width: 393px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.planning_img {
+    max-width: 550px;
+}
+
+.planning_img img{
+    width: 100%;
+}
+
+.planning_categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.planning_item {
+    margin: 0 56px 30px 0px;
+}
+
+.planning_item_img {
+    max-width: 89px;
+}
+
+.planning_item_img img{
+    width: 88px;
+    height: 88px;
+    border-radius: 44px;
+    background-color: #ffecef;
+}
+
+.planning_item_detail h6 {
+    max-width: 183px;
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+}
+
+.planning_item_detail p {
+    max-width: 260px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+}

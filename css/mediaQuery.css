@@ -82,6 +82,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .jackpots_border {
+        display: none;
+    }
+
     .jackpots_detail {
         margin: 70px auto;
     }
@@ -133,11 +137,14 @@
         text-align: center;
     }
 
-    .app_store_img img{
-        /* margin: auto; */
+    .app_store_img {
         text-align: center;
-        
     }
+
+    .app_store_img img{
+       width: 90%;
+    }
+
     .app_img {
         text-align: center;
         margin: 25px auto;
@@ -185,6 +192,7 @@
         margin: auto;
         text-align: center;
     } 
+
 }
 
 /* Mobile version */
@@ -222,4 +230,5 @@
     .planning_categories {
         grid-template-columns: repeat(1, 1fr);
     }
+
 }

@@ -15,6 +15,22 @@
         font-size: 48px;
         line-height: 63px;
     }
+    .features_content {
+        flex-direction: column-reverse;
+    }
+    
+    .jackpots_content {
+        flex-wrap: wrap;
+    }
+    .jackpots_content h2{
+    margin-bottom: 20px;
+    }
+    .jackpots_detail {
+      flex-wrap: wrap;
+    }
+    .jackpots_item {
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -35,13 +51,22 @@
         text-align: center;
         margin-bottom: 38px;
     }
+    #client_section {
+        margin-top: 400px;
+    }
+    .client_content {
+        flex-wrap:wrap;
+    }
+    .jackpots_detail {
+        flex-direction: column;
+    }
 }
-
 
 /* Mobile version */
 @media only screen and (max-width: 589px) {
     .banner_info h6 {
-        max-width: 350px;
+        max-width: 280px;
+        font-size: 14px;
     }
     .banner_info h1 {
         font-size: 32px;
@@ -50,6 +75,18 @@
     .banner_btn {
         flex-direction: column;
         justify-content: center;
+        text-align: center;
+    }
+    .client_content {
+        flex-wrap:wrap;
+    }
+    .client_content img{
+        margin: 15px 0px;
+    }
+    .features_categories {
+        flex-direction: column;
+    }
+    .feature_info {
         text-align: center;
     }
 }

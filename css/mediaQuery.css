@@ -4,20 +4,25 @@
         display: block;
         cursor: pointer;
     }
+
     .menu_bar {
         display: none;
     }
+
     #banner_section {
         background-position: left bottom;
         background-size: 100%;
     }
+
     .banner_info h1 {
         font-size: 48px;
         line-height: 63px;
     }
+
     .features_content {
         flex-direction: column-reverse;
     }
+
     .features_title h2{
         margin: auto;
         text-align: center;
@@ -31,22 +36,54 @@
     .jackpots_content {
         flex-wrap: wrap;
     }
+
     .jackpots_content h2{
         margin: auto;
         text-align: center;
         padding-bottom: 15px;
     }
+
     .jackpots_content p{
         margin: auto;
         text-align: center;
     }
+
     .jackpots_detail {
       flex-wrap: wrap;
     }
+
     .jackpots_item {
         margin-bottom: 20px;
     }
-   
+
+   .design_content {
+        flex-direction: column;
+    }
+    .design_info{
+        text-align: center;
+        margin: auto;
+     }
+
+    .design_info h2{
+        margin: 24px auto 0px;
+        text-align: center;
+    }
+    
+    .design_info p {
+        margin: auto;
+        text-align: center;
+    }
+
+    .design_btn {
+        text-align: center;
+    }
+
+    .service_content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .jackpots_detail {
+        margin: 70px auto;
+    }
 }
 
 
@@ -76,19 +113,19 @@
     .jackpots_detail {
         flex-direction: column;
     }
-    .jackpots_img{
+    .jackpots_img {
         margin: auto;
         text-align: center;
     }
-    .jackpots_info h6 {
+    .jackpots_info  {
         margin: auto;
         text-align: center;
-    }
+    } */
     
-    .jackpots_info p {
+   .jackpots_info p {
         margin: auto;
         text-align: center;
-    }
+    } 
 }
 
 /* Mobile version */
@@ -117,5 +154,9 @@
     }
     .feature_info {
         text-align: center;
+    }
+
+    .service_content {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

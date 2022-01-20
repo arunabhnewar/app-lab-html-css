@@ -287,6 +287,7 @@ header {
     color: #40975f;
 }
 
+
 /*-------jackpots---------*/
 #jackpots {
     margin-top: 160px;
@@ -360,4 +361,106 @@ header {
 
 .jackpots_three {
     color: #40975f;
+}
+
+
+/*-------design---------*/
+#design {
+    margin-top: 95px;
+}
+
+.design_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.design_img {
+    max-width: 598px;
+}
+
+.design_img img{
+    width: 100%;
+}
+
+.design_info {
+    margin-left: 111px;
+}
+.design_info h2{
+    max-width: 349px;
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+    padding-bottom: 29px;
+}
+
+.design_info p {
+    max-width:406px ;
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    padding-bottom: 41px;
+}
+
+
+/*-------service---------*/
+#service {
+    margin-top: 216px;
+}
+
+.service_section h2{
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+    max-width: 434px;
+    margin: 0 auto 34px;
+}
+
+.service_section p {
+    max-width: 633px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+}
+
+.service_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 95px;
+    grid-column-gap: 94px;
+}
+
+.service_img {
+    text-align: center;
+}
+
+.service_img img {
+    width: 88px;
+    height: 88px;
+    border-radius: 44px;
+    background-color: #ffecef;
+}
+
+.service_detail h6 {
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+}
+
+.service_detail p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto 65px;
 }

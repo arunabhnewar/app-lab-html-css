@@ -317,6 +317,11 @@ header {
     font-weight: 400;
 }
 
+.jackpots_border {
+    border-left: 1px solid gray;
+    min-height: 150px;
+}
+
 .jackpots_detail {
     margin-top: 90px;
     display: flex;
@@ -539,4 +544,56 @@ header {
     line-height: 26px;
     color: #616368;
     font-weight: 400;
+}
+
+
+
+
+/*-------app download---------*/
+#app_section {
+    margin-top: 228px;
+}
+
+.app_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app_info h2 {
+    max-width: 556px;
+    font-size: 40px;
+    line-height: 58px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.app_info p {
+    max-width: 632px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+}
+
+.app_store_img {
+    margin-top: 50px;
+    max-width: 185px;
+    display: flex;
+    align-items: center;
+}
+
+.app_store_img img {
+    padding-right: 25px;
+    width: 100%;
+}
+
+.app_img {
+    max-width: 800px;
+}
+
+.app_img img {
+    width: 100%;
 }

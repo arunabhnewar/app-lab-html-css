@@ -118,6 +118,31 @@
         text-align: center;
         margin:0 auto 20px;
     }
+
+    .app_content {
+        flex-direction: column;
+    }
+
+    .app_info h2 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .app_info p {
+        margin: auto;
+        text-align: center;
+    }
+
+    .app_store_img img{
+        /* margin: auto; */
+        text-align: center;
+        
+    }
+    .app_img {
+        text-align: center;
+        margin: 25px auto;
+    }
+    
 }
 
 

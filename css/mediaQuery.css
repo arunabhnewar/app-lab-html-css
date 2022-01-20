@@ -18,12 +18,27 @@
     .features_content {
         flex-direction: column-reverse;
     }
+    .features_title h2{
+        margin: auto;
+        text-align: center;
+    }
     
+    .features_title p {
+        margin: auto;
+        text-align: center;
+    }
+
     .jackpots_content {
         flex-wrap: wrap;
     }
     .jackpots_content h2{
-    margin-bottom: 20px;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .jackpots_content p{
+        margin: auto;
+        text-align: center;
     }
     .jackpots_detail {
       flex-wrap: wrap;
@@ -31,6 +46,7 @@
     .jackpots_item {
         margin-bottom: 20px;
     }
+   
 }
 
 
@@ -59,6 +75,19 @@
     }
     .jackpots_detail {
         flex-direction: column;
+    }
+    .jackpots_img{
+        margin: auto;
+        text-align: center;
+    }
+    .jackpots_info h6 {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .jackpots_info p {
+        margin: auto;
+        text-align: center;
     }
 }
 

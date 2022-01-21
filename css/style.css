@@ -718,3 +718,57 @@ header {
 .app_img img {
     width: 100%;
 }
+
+
+/*----------footer---------*/
+#footer_section {
+    height: 500px;
+    background-color: #09142e
+}
+
+.footer_content {
+    padding-top: 118px;
+    text-align: center;
+}
+
+.footer_logo {
+    text-align: center;
+}
+.footer_nav ul li {
+    display: inline-block;
+    padding: 25px 20px;
+}
+
+.footer_content li a {
+    font-size: 16px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+    transition: all 0.6s ease-in-out;
+}
+
+.footer_content li a:hover {
+    color: orange;
+}
+
+.footer_social {
+    font-size: 30px;
+    letter-spacing: 23px;
+    line-height: 44px;
+    color: #273043;
+    font-weight: 400;
+    cursor: pointer;
+    transition:  all 0.6s ease-in-out;
+}
+
+.footer_social i:hover {
+    color: orange;
+}
+
+.footer_content p {
+    padding-top: 80px;
+    font-size: 14px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+}

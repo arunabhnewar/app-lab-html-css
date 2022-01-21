@@ -78,6 +78,7 @@ header {
     outline: none;
     color: #f9fbfc;
     cursor: pointer;
+    box-shadow: 2px 5px 15px 0px #0B325E;
 }
 
 #toggler_menu {
@@ -87,9 +88,9 @@ header {
     background: transparent;
 }
 
-#toggler_menu i {
+.toggler_menu_btn i{
     color: #2500f9;
-    font-size: 32px;
+    cursor: pointer;
 }
 
 /*----------banner----------*/
@@ -516,7 +517,7 @@ header {
 }
 
 .planning_item {
-    margin: 0 56px 30px 0px;
+    margin: 0 56px 20px 0px;
 }
 
 .planning_item_img {
@@ -547,7 +548,127 @@ header {
 }
 
 
+/*-------pricing---------*/
+#pricing {
+    margin-top: 173px;
+}
 
+.pricing_content {
+    text-align: center;
+}
+
+.pricing_intro h2{
+    max-width: 589px;
+    font-size: 36px;
+    line-height: 46px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto 33px;
+}
+
+.pricing_intro p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #616368;
+    font-weight: 400;
+    text-align: center;
+    max-width: 634px;
+    margin: 0 auto 50px;
+}
+
+.pricing_btn {
+    max-width: 280px;
+    height: 49px;
+    border-radius: 24px;
+    background-color: transparent;
+    margin: 30px auto;
+    border: 2px solid #ebebeb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.common_btn {
+    width: 125px;
+    height: 48px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.annually_btn {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.pricing_card_content {
+    max-width: 650px;
+    margin: 40px auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 34px;
+}
+
+.single_pricing_card {
+    max-width: 317px;
+    height: 554px;
+    border-radius: 9px;
+    filter: drop-shadow(3.837px 54.866px 31px rgba(144,163,177,0.18));
+    background-color: #ffffff;
+}
+
+.pro_card {
+    border: 1px solid gray;
+}
+
+.pricing_card_intro {
+    background:#f4f7f9;;
+}
+
+.pricing_card_intro h2{
+    font-size: 60px;
+    line-height: 58px;
+    padding: 20px 0px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricing_card_intro sub {
+    font-size: 18px;
+    line-height: 28px;
+    color: #999ca5;
+    font-weight: 400;
+    text-align: center;
+}
+
+.pricing_card_intro h6 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #242f51;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricing_card_intro p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #999ca5;
+    font-weight: 400;
+    text-align: center;
+}
+
+.pricing_card_footer ul li{
+    font-size: 16px;
+    line-height: 48px;
+    color: #999ca5;
+    font-weight: 400;
+    text-align: center;
+}
+
+.pricing_card_btn {
+    margin: 30px 0 15px 0;
+}
 
 /*-------app download---------*/
 #app_section {

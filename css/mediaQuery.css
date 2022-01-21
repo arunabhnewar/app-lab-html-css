@@ -1,12 +1,42 @@
+/* large version */
+@media only screen and (min-width: 993px) {
+    .toggler_menu_btn {
+        display: none;
+    }
+}
+
 /* Desktop version */
 @media only screen and (max-width: 992px) {
-    #toggler_menu {
+    .toggler_menu_btn {
         display: block;
-        cursor: pointer;
+        margin-left: 100px;
     }
 
     .menu_bar {
-        display: none;
+        width: calc(100% - 0px);
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 1;
+        margin: 0;
+        padding: 20px 0 20px 35px;
+        background: rgba(22, 22, 22, 0.7);
+        transform-origin: top;
+        transform: translateY(-500px);
+        transition: 0.9s linear;
+    }
+
+    .menu_bar ul{
+        display: block;
+        margin-top: 20px 0 20px 50px;
+    }
+
+    .menu_bar ul li a {
+        color: #fff;
+    }
+
+    #toggler_menu:checked ~ .menu_bar {
+        transform: translateY(0px);
     }
 
     #banner_section {
@@ -193,6 +223,10 @@
         text-align: center;
     } 
 
+    .pricing_card_content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 /* Mobile version */
@@ -223,11 +257,7 @@
         text-align: center;
     }
 
-    .service_content {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .planning_categories {
+    .service_content, .planning_categories {
         grid-template-columns: repeat(1, 1fr);
     }
 

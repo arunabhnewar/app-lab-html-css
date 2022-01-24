@@ -56,13 +56,29 @@
     .features_title h2{
         margin: auto;
         text-align: center;
+        font-size: 30px;
+        line-height: 40px;
     }
     
     .features_title p {
         margin: auto;
         text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 25px;
     }
 
+    .feature_info h6 {
+        font-size: 18px;
+        line-height: 50px;
+        font-weight: 600;
+    }
+    
+    .feature_info p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+    }
     .jackpots_content {
         flex-wrap: wrap;
     }
@@ -71,11 +87,13 @@
         margin: auto;
         text-align: center;
         padding-bottom: 15px;
+        font-size: 36px;
     }
 
     .jackpots_content p{
         margin: auto;
         text-align: center;
+        font-size: 14px;
     }
 
     .jackpots_detail {
@@ -85,6 +103,19 @@
     .jackpots_item {
         margin-bottom: 20px;
     }
+
+    .jackpots_info h6 {
+        font-size: 18px;
+        line-height: 48px;
+        font-weight: 600;
+    }
+
+    .jackpots_info p {
+
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+    } 
 
    .design_content {
         flex-direction: column;
@@ -97,19 +128,45 @@
     .design_info h2{
         margin: 24px auto 0px;
         text-align: center;
+        font-size: 30px;
+        line-height: 40px;
     }
     
     .design_info p {
         margin: auto;
         text-align: center;
+        font-size: 14px;
+        line-height: 24px;
     }
 
     .design_btn {
         text-align: center;
     }
 
+    .service_section h2{
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+    
+    .service_section p {
+
+        font-size: 14px;
+        line-height: 24px;
+    }
+
     .service_content {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service_detail h6 {
+        font-size: 18px;
+        line-height: 50px;
+    }
+    
+    .service_detail p {
+        font-size: 14px;
+        line-height: 24px;
     }
 
     .jackpots_border {
@@ -262,4 +319,20 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    #footer_section {
+        min-width: 357px;
+    }
+
+    .footer_nav ul li {
+        padding: 10px 10px;
+    }
+
+    .footer_social {
+        font-size: 24px;
+        letter-spacing: 16px;
+    }
+
+    .footer_content p {
+        font-size: 11px;
+    }
 }
